@@ -1,0 +1,86 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(85deg, #536976, #292E49);
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 3%; 
+    padding-left: 5%;
+    color: white;
+    padding-right: 22px;
+    margin-right: 10px;
+
+}
+
+.container h1 {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.container .btn {
+    display: block;
+    margin: 35px auto 0 auto;
+}
+
+button {
+    
+    margin-top: 35px;
+    background: #292E49;
+    color: white;
+    border-radius: 24px;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #292E49 0%, #536976 100%);
+}
+
+.note {
+    position: relative;
+    display: flex;
+    flex: 1 1 20%;
+    background: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1400px;
+    margin-left: 2px;
+
+}
+
+.note-content {
+    padding: 20px;
+    min-height: 180px;
+    outline: none;
+}
+
+.note img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
